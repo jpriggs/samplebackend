@@ -1,0 +1,31 @@
+{
+  "name": "samplebackend",
+  "version": "0.0.1",
+  "description": "A sample API backend application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpriggs/samplebackend.git"
+  },
+  "author": "Jason Rigdon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpriggs/samplebackend/issues"
+  },
+  "homepage": "https://github.com/jpriggs/samplebackend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  }
+}
